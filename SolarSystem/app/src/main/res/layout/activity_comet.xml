@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/unnamed"
+    tools:context="com.example.lenovo.solarsystem.Comet">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#99000000"
+            >
+
+            <TextView
+                android:id="@+id/textView75"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Comet"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView76"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="A comet is an icy small Solar System body that, when passing close to the Sun, warms and begins to release gases, a process called outgassing. This produces a visible atmosphere or coma, and sometimes also a tail. These phenomena are due to the effects of solar radiation and the solar wind acting upon the nucleus of the comet. Comet nuclei range from a few hundred metres to tens of kilometres across and are composed of loose collections of ice, dust, and small rocky particles. The coma may be up to 15 times the Earth's diameter, while the tail may stretch one astronomical unit. If sufficiently bright, a comet may be seen from the Earth without the aid of a telescope and may subtend an arc of 30° (60 Moons) across the sky. Comets have been observed and recorded since ancient times by many cultures.\n"
+                android:textColor="@android:color/background_light" />
+
+            <TextView
+                android:id="@+id/textView77"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Etymology"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView78"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="The solid, core structure of a comet is known as the nucleus. Cometary nuclei are composed of an amalgamation of rock, dust, water ice, and frozen gases such as carbon dioxide, carbon monoxide, methane, and ammonia.[13] As such, they are popularly described as &quot;dirty snowballs&quot; after Fred Whipple's model.[14] However, some comets may have a higher dust content, leading them to be called &quot;icy dirtballs&quot;.[15] Research conducted in 2014 suggests that comets are like &quot;deep fried ice cream&quot;, in that their surfaces are formed of dense crystalline ice mixed with organic compounds, while the interior ice is colder and less dense.[16]\n"
+                android:textColor="@android:color/background_light" />
+
+            <TextView
+                android:id="@+id/textView80"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nucleus"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView74"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="The solid, core structure of a comet is known as the nucleus. Cometary nuclei are composed of an amalgamation of rock, dust, water ice, and frozen gases such as carbon dioxide, carbon monoxide, methane, and ammonia.[13] As such, they are popularly described as &quot;dirty snowballs&quot; after Fred Whipple's model.[14] However, some comets may have a higher dust content, leading them to be called &quot;icy dirtballs&quot;.[15] Research conducted in 2014 suggests that comets are like &quot;deep fried ice cream&quot;, in that their surfaces are formed of dense crystalline ice mixed with organic compounds, while the interior ice is colder and less dense.[16]\n"
+                android:textColor="@android:color/background_light" />
+
+            <ImageView
+                android:id="@+id/imageView32"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/cometharley" />
+
+            <TextView
+                android:id="@+id/textView81"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Nucleus of 103P/Hartley as imaged during a spacecraft flyby. The nucleus is about 2 km in length."
+                android:textColor="@android:color/background_light" />
+
+            <TextView
+                android:id="@+id/textView73"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nComa"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView79"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="The streams of dust and gas thus released form a huge and extremely thin atmosphere around the comet called the &quot;coma&quot;. The force exerted on the coma by the Sun's radiation pressure and solar wind cause an enormous &quot;tail&quot; to form pointing away from the Sun.[46]  The coma is generally made of  H2O and dust, with water making up to 90% of the volatiles that outflow from the nucleus when the comet is within 3 to 4 astronomical units (450,000,000 to 600,000,000 km; 280,000,000 to 370,000,000 mi) of the Sun.[47] The  H2O parent molecule is destroyed primarily through photodissociation and to a much smaller extent photoionization, with the solar wind playing a minor role in the destruction of water compared to photochemistry.[47] Larger dust particles are left along the comet's orbital path whereas smaller particles are pushed away from the Sun into the comet's tail by light pressure.[48]\n"
+                android:textColor="@android:color/background_light" />
+
+            <ImageView
+                android:id="@+id/imageView33"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/coma" />
+
+            <TextView
+                android:id="@+id/textView82"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nOrbital characteristics"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView83"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Most comets are small Solar System bodies with elongated elliptical orbits that take them close to the Sun for a part of their orbit and then out into the further reaches of the Solar System for the remainder.[71] Comets are often classified according to the length of their orbital periods: The longer the period the more elongated the ellipse.\n"
+                android:textColor="@android:color/background_light" />
+
+            <TextView
+                android:id="@+id/textView86"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nNomenclature"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView88"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text='The names given to comets have followed several different conventions over the past two centuries. Prior to the early 20th century, most comets were simply referred to by the year when they appeared, sometimes with additional adjectives for particularly bright comets; thus, the "Great Comet of 1680", the "Great Comet of 1882", and the "Great January Comet of 1910".\n'
+                android:textColor="@android:color/background_light" />
+
+            <ImageView
+                android:id="@+id/imageView34"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/comethalex" />
+
+            <TextView
+                android:id="@+id/textView87"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Halley's Comet in 1910"
+                android:textColor="@android:color/background_light" />
+
+            <TextView
+                android:id="@+id/textView84"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nObservation"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView85"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="A comet may be discovered photographically using a wide-field telescope or visually with binoculars. However, even without access to optical equipment, it is still possible for the amateur astronomer to discover a sungrazing comet online by downloading images accumulated by some satellite observatories such as SOHO.[178] SOHO's 2000th comet was discovered by Polish amateur astronomer Michał Kusiak on 26 December 2010[179] and both discoverers of Hale-Bopp used amateur equipment (although Hale was not an amateur).\n"
+                android:textColor="@android:color/background_light" />
+        </LinearLayout>
+
+    </ScrollView>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nv1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+
+        app:headerLayout="@layout/navigation_header"
+        app:itemBackground="@android:color/background_dark"
+        app:itemIconTint="@android:color/background_light"
+        app:itemTextColor="@android:color/background_light"
+        app:menu="@menu/navigation_menu">
+
+    </android.support.design.widget.NavigationView>
+</android.support.v4.widget.DrawerLayout>

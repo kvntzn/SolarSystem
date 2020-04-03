@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+    <item android:id="@+id/nav_home"
+        android:icon="@mipmap/ic_home_white_24dp"
+        android:title="Home" />
+
+
+    <item android:id="@+id/nav_overview"
+        android:icon="@mipmap/ic_description_white_24dp"
+        android:title="Overview" />
+
+    <item android:id="@+id/nav_stars"
+        android:icon="@mipmap/ic_star_rate_white_18dp"
+        android:title="Stars" />
+
+
+    <item android:id="@+id/nav_moon"
+        android:icon="@mipmap/ic_brightness_2_white_24dp"
+        android:title="Natural satellite" />
+
+    <item android:id="@+id/nav_location"
+        android:icon="@mipmap/ic_location_on_white_24dp"
+        android:title="Location" />
+
+    <item android:id="@+id/nav_asteroid"
+        android:icon="@mipmap/ic_filter_tilt_shift_white_24dp"
+        android:title="Asteroid Belt" />
+
+    <item android:id="@+id/nav_comet"
+        android:icon="@mipmap/ic_bubble_chart_white_24dp"
+        android:title="Comets" />
+
+    <item android:id="@+id/nav_blackhole"
+        android:icon="@mipmap/ic_album_white_24dp"
+        android:title="Blackhole" />
+
+    <item android:id="@+id/nav_cusplanets"
+        android:icon="@mipmap/ic_public_white_24dp"
+        android:title="Customize Planets" />
+
+    <item android:id="@+id/nav_member"
+        android:icon="@mipmap/ic_face_white_24dp"
+        android:title="Members" />
+
+</menu>

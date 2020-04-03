@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lenovo.solarsystem">
+
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/solar_walk_icon_300x300"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="sensorPortrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Mercury"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".Venus"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".Earth"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".Mars"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".Jupiter"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".Saturn"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".Uranus"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".Neptune"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".Pluto"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".Sun"
+            android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Main_Sun" />
+        <activity
+            android:name=".Edit"
+            android:screenOrientation="sensorPortrait" />
+        <activity android:name=".CustomizedPlanets" />
+        <activity android:name=".Members" />
+        <activity android:name=".Stars" />
+        <activity android:name=".Overview" />
+        <activity android:name=".Moon" />
+        <activity android:name=".Location" />
+        <activity android:name=".Asteroid" />
+        <activity android:name=".Comet" />
+        <activity android:name=".Blackhole"></activity>
+    </application>
+
+</manifest>

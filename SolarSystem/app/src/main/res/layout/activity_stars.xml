@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/unnamed"
+    tools:context="com.example.lenovo.solarsystem.Stars">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#99000000"
+            >
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Star"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="24sp"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="A star is a luminous sphere of plasma held together by its own gravity. The nearest star to Earth is the Sun. Many other stars are visible to the naked eye from Earth during the night, appearing as a multitude of fixed luminous points in the sky due to their immense distance from Earth. Historically, the most prominent stars were grouped into constellations and asterisms, the brightest of which gained proper names. Astronomers have assembled star catalogues that identify the known stars and provide standardized stellar designations. However, most of the stars in the Universe, including all stars outside our galaxy, the Milky Way, are invisible to the naked eye from Earth. Indeed, most are invisible from Earth even through the most powerful telescopes. \n\n"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/background_light" />
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/star" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="False-color imagery of the Sun, a G-type main-sequence star, the closest to Earth \n\n\n"
+                android:textColor="@android:color/background_light" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/leo" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="People have seen patterns in the stars since ancient times.[5] This 1690 depiction of the constellation of Leo, the lion, is by Johannes Hevelius. \n\n"
+                android:textColor="@android:color/background_light" />
+
+            <TextView
+                android:id="@+id/formation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Formation and evolution"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="24sp"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Stars condense from regions of space of higher matter density, yet those regions are less dense than within a vacuum chamber. These regions – known as molecular clouds – consist mostly of hydrogen, with about 23 to 28 percent helium and a few percent heavier elements. One example of such a star-forming region is the Orion Nebula.[55] Most stars form in groups of dozens to hundreds of thousands of stars.[56] Massive stars in these groups may powerfully illuminate those clouds, ionizing the hydrogen, and creating H II regions. Such feedback effects, from star formation, may ultimately disrupt the cloud and prevent further star formation. \n\n"
+                android:textColor="@android:color/background_light" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/starevo" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Stellar evolution of low-mass (left cycle) and high-mass (right cycle) stars, with examples in italics \n\n"
+                android:textColor="@android:color/background_light" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Star formation"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="24sp"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text='The formation of a star begins with gravitational instability within a molecular cloud, caused by regions of higher density – often triggered by compression of clouds by radiation from massive stars, expanding bubbles in the interstellar medium, the collision of different molecular clouds, or the collision of galaxies (as in a starburst galaxy).[59][60] When a region reaches a sufficient density of matter to satisfy the criteria for Jeans instability, it begins to collapse under its own gravitational force.[61]As the cloud collapses, individual conglomerations of dense dust and gas form "Bok globules". As a globule collapses and the density increases, the gravitational energy converts into heat and the temperature rises. When the protostellar cloud has approximately reached the stable condition of hydrostatic equilibrium, a protostar forms at the core.[62] These pre-main-sequence stars are often surrounded by a protoplanetary disk and powered mainly by the conversion of gravitational energy. The period of gravitational contraction lasts about 10 to 15 million years\n\n'
+                android:textColor="@android:color/background_light" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/birth" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Artist's conception of the birth of a star within a dense molecular cloud.\n\n"
+                android:textColor="@android:color/background_light" />
+
+            <TextView
+                android:id="@+id/tvCharacteristics"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Characteristics"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="24sp"
+
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/knownstars" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Some of the well-known stars with their apparent colors and relative sizes.\n\n"
+                android:textColor="@android:color/background_light" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/comparison" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Stars vary widely in size. In each image in the sequence, the right-most object appears as the left-most object in the next panel. The Earth appears at right in panel 1 and the Sun is second from the right in panel 3. The rightmost star at panel 6 is UY Scuti, the largest known star.\n\n"
+                android:textColor="@android:color/background_light" />
+        </LinearLayout>
+
+    </ScrollView>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nv1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+
+        app:headerLayout="@layout/navigation_header"
+        app:itemBackground="@android:color/background_dark"
+        app:itemIconTint="@android:color/background_light"
+        app:itemTextColor="@android:color/background_light"
+        app:menu="@menu/navigation_menu">
+
+    </android.support.design.widget.NavigationView>
+</android.support.v4.widget.DrawerLayout>

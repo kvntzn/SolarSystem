@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/unnamed"
+    tools:context="com.example.lenovo.solarsystem.Blackhole">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:background="#99000000"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView91"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Blackhole"
+
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView90"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="A black hole is a region of spacetime exhibiting such strong gravitational effects that nothing—not even particles and electromagnetic radiation such as light—can escape from inside it.[1] The theory of general relativity predicts that a sufficiently compact mass can deform spacetime to form a black hole.[2][3] The boundary of the region from which no escape is possible is called the event horizon. Although the event horizon has an enormous effect on the fate and circumstances of an object crossing it, no locally detectable features appear to be observed.[4] In many ways a black hole acts like an ideal black body, as it reflects no light.[5][6] Moreover, quantum field theory in curved spacetime predicts that event horizons emit Hawking radiation, with the same spectrum as a black body of a temperature inversely proportional to its mass. This temperature is on the order of billionths of a kelvin for black holes of stellar mass, making it essentially impossible to observe.\n"
+                android:textColor="@android:color/background_light" />
+
+            <TextView
+                android:id="@+id/textView95"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="History"
+
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:layout_marginLeft="20dp"
+                android:text="The idea of a body so massive that even light could not escape was briefly proposed by astronomical pioneer and English clergyman John Michell in a letter published in November 1784. Michell's simplistic calculations assumed that such a body might have the same density as the Sun, and concluded that such a body would form when a star's diameter exceeds the Sun's by a factor of 500, and the surface escape velocity exceeds the usual speed of light. Michell correctly noted that such supermassive but non-radiating bodies might be detectable through their gravitational effects on nearby visible bodies.[11][7][12] Scholars of the time were initially excited by the proposal that giant but invisible stars might be hiding in plain view, but enthusiasm dampened when the wavelike nature of light became apparent in the early nineteenth century.[13] If light were a wave rather than a &quot;corpuscle&quot;, it became unclear what, if any, influence gravity would have on escaping light waves.[7][12] Modern relativity factually dispels Michell's notion of a light ray shooting directly from the surface of a supermassive star, being slowed down by the star's gravity, stopping, and then free-falling back to the star's surface. \n"
+                android:textColor="@android:color/background_light" />
+
+            <ImageView
+                android:id="@+id/imageView31"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/bh" />
+
+            <TextView
+                android:id="@+id/textView96"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Simulated view of a black hole in front of the Large Magellanic Cloud. Note the gravitational lensing effect, which produces two enlarged but highly distorted views of the Cloud. Across the top, the Milky Way disk appears distorted into an arc.\n"
+                android:textColor="@android:color/background_light" />
+
+            <TextView
+                android:id="@+id/textView98"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Properties and structure"
+
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView97"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="The no-hair theorem states that, once it achieves a stable condition after formation, a black hole has only three independent physical properties: mass, charge, and angular momentum.[35] Any two black holes that share the same values for these properties, or parameters, are indistinguishable according to classical (i.e. non-quantum) mechanics.  These properties are special because they are visible from outside a black hole. For example, a charged black hole repels other like charges just like any other charged object. Similarly, the total mass inside a sphere containing a black hole can be found by using the gravitational analog of Gauss's law, the ADM mass, far away from the black hole.[clarification needed][44] Likewise, the angular momentum can be measured from far away using frame dragging by the gravitomagnetic field.[clarification needed]\n"
+                android:textColor="@android:color/background_light" />
+
+            <ImageView
+                android:id="@+id/imageView35"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/bhdetails" />
+
+            <TextView
+                android:id="@+id/textView99"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="A simple illustration of a non-spinning black hole"
+                android:textColor="@android:color/background_light" />
+
+            <TextView
+                android:id="@+id/textView100"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nFormation and evolution"
+
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView94"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Considering the exotic nature of black holes, it may be natural[clarification needed] to question if such bizarre objects could exist in nature or to suggest that they are merely pathological solutions to Einstein's equations. Einstein himself wrongly thought that black holes would not form, because he held that the angular momentum of collapsing particles would stabilize their motion at some radius.[84] This led the general relativity community to dismiss all results to the contrary for many years. However, a minority of relativists continued to contend that black holes were physical objects,[85] and by the end of the 1960s, they had persuaded the majority of researchers in the field that there is no obstacle to the formation of an event horizon."
+                android:textColor="@android:color/background_light" />
+
+            <TextView
+                android:id="@+id/textView89"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nObservational evidence"
+
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView102"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="By their very nature, black holes do not directly emit any electromagnetic radiation other than the hypothetical Hawking radiation, so astrophysicists searching for black holes must generally rely on indirect observations. For example, a black hole's existence can sometimes be inferred by observing its gravitational interactions with its surroundings.  The Event Horizon Telescope (EHT), however, run by MIT's Haystack Observatory, is an attempt to directly observe the immediate environment of the event horizon of Sagittarius A*, the black hole at the centre of the Milky Way, and to produce a silhouetted image of it. The first such image may appear as early as 2018.[110] In 2015, the EHT managed to detect magnetic fields just outside the event horizon of Sagittarius A*, and even discern some of their properties. The existence of magnetic fields had been predicted by theoretical studies of black holes.[111][112]\n"
+                android:textColor="@android:color/background_light" />
+
+            <ImageView
+                android:id="@+id/imageView36"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/ironring" />
+
+            <TextView
+                android:id="@+id/textView103"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Predicted appearance of non-rotating black hole with toroidal ring of ionised matter, such as has been proposed[109] as a model for Sagittarius A*. The asymmetry is due to the Doppler effect resulting from the enormous orbital speed needed for centrifugal balance of the very strong gravitational attraction of the hole.\n"
+                android:textColor="@android:color/background_light" />
+
+            <ImageView
+                android:id="@+id/imageView37"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/monsterbh" />
+
+            <TextView
+                android:id="@+id/textView104"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Black hole with corona, X-ray source (artist's concept).[121]\n\n"
+                android:textColor="@android:color/background_light" />
+
+            <ImageView
+                android:id="@+id/imageView38"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/cnrbh" />
+
+            <TextView
+                android:id="@+id/textView101"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Predicted view from outside the horizon of a Schwarzschild black hole lit by a thin accretion disc\n"
+                android:textColor="@android:color/background_light" />
+
+            <ImageView
+                android:id="@+id/imageView39"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/milkybh" />
+
+            <TextView
+                android:id="@+id/textView105"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Detection of unusually bright X-Ray flare from Sagittarius A*, a black hole in the center of the Milky Way galaxy on 5 January 2015.[136]"
+                android:textColor="@android:color/background_light" />
+        </LinearLayout>
+
+    </ScrollView>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nv1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+
+        app:headerLayout="@layout/navigation_header"
+        app:itemBackground="@android:color/background_dark"
+        app:itemIconTint="@android:color/background_light"
+        app:itemTextColor="@android:color/background_light"
+        app:menu="@menu/navigation_menu">
+
+    </android.support.design.widget.NavigationView>
+</android.support.v4.widget.DrawerLayout>
+

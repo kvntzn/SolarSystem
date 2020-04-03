@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/unnamed"
+    tools:context="com.example.lenovo.solarsystem.Location">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:background="#99000000"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Location of Solar System"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Milky Way –\n\t Orion–Cygnus Arm –\n\t\t Local Interstellar Cloud – immediate galactic neighborhood of the Solar System. \n\t\t\t\t\tSolar System – star system where the Earth is located. \n"
+                android:textColor="@android:color/background_light" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Milky Way"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text='The Milky Way is the galaxy[21][22][23][nb 1] that contains our Solar System.[24] The descriptive "milky" is derived from the appearance from Earth of the galaxy – a band of light seen in the night sky formed from stars that cannot be individually distinguished by the naked eye. The term Milky Way is a translation of the Latin via lactea, from the Greek γαλαξίας κύκλος (galaxías kýklos, "milky circle").[25][26][27] From Earth, the Milky Way appears as a band because its disk-shaped structure is viewed from within. Galileo Galilei first resolved the band of light into individual stars with his telescope in 1610. Until the early 1920s, most astronomers thought that the Milky Way contained all the stars in the Universe.[28] Following the 1920 Great Debate between the astronomers Harlow Shapley and Heber Curtis,[29] observations by Edwin Hubble showed that the Milky Way is just one of many galaxies.\n'
+                android:textColor="@android:color/background_light" />
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/milkyway" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Image of the night sky above Paranal on 21 July 2007, taken by ESO astronomer Yuri Beletsky. A wide band of stars and dust clouds, spanning more than 100 degrees on the sky, is seen. This is the Milky Way, the Galaxy we belong to. At the centre of the image, two bright objects are visible. The brightest is the planet Jupiter, while the other is the star Antares. Three of the four 8.2-m telescopes forming ESO's VLT are seen, with a laser beaming out from Yepun, Unit Telescope number 4. The laser points directly at the Galactic Centre. Also visible are three of the 1.8-m Auxiliary Telescopes used for interferometry. They show small light beams which are diodes located on the domes. The exposure time is 5 minutes and because the tracking was made on the stars, the telescopes are slightly blurred."
+                android:textColor="@android:color/background_light" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nOrion Arm"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="The Orion Arm is a minor spiral arm of the Milky Way some 3,500 light-years (1,100 parsecs) across and approximately 10,000 light-years (3,100 parsecs) in length.[2] The Solar System, including the Earth, lies within the Orion Arm. It is also referred to by its full name, the Orion–Cygnus Arm, as well as Local Arm, Orion Bridge, and formerly, the Local Spur and Orion Spur.  The Orion Arm is named for the Orion constellation, which is one of the most prominent constellations of Northern Hemisphere winter (Southern Hemisphere summer). Some of the brightest stars and most famous celestial objects of this constellation (Betelgeuse, Rigel, the stars of Orion's Belt, the Orion Nebula) are located within the Orion Arm, as shown on the interactive map below.\n"
+                android:textColor="@android:color/background_light" />
+
+            <ImageView
+                android:id="@+id/imageView24"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/orioncygnus" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Observed structure of the Milky Way's spiral arms[1]"
+                android:textColor="@android:color/background_light" />
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nLocal Interstellar Cloud"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="The Local Interstellar Cloud (LIC), also known as the Local Fluff, is the interstellar cloud roughly 30 light-years (9.2 pc) across through which the Solar System is currently moving. It is currently unknown if the Sun is embedded in the Local Interstellar Cloud, or in the region where the Local Interstellar Cloud is interacting with the neighboring G-Cloud.[2]\n"
+                android:textColor="@android:color/background_light" />
+
+            <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/lic" />
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Diagram of the local clouds of matter that the Solar System is moving through, with arrows indicating cloud motion."
+                android:textColor="@android:color/background_light" />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nSolar System"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="he Solar System formed 4.6 billion years ago from the gravitational collapse of a giant interstellar molecular cloud. The vast majority of the system's mass is in the Sun, with the majority of the remaining mass contained in Jupiter. The four smaller inner planets, Mercury, Venus, Earth and Mars, are terrestrial planets, being primarily composed of rock and metal. The four outer planets are giant planets, being substantially more massive than the terrestrials. The two largest, Jupiter and Saturn, are gas giants, being composed mainly of hydrogen and helium; the two outermost planets, Uranus and Neptune, are ice giants, being composed mostly of substances with relatively high melting points compared with hydrogen and helium, called volatiles, such as water, ammonia and methane. All eight planets have almost circular orbits that lie within a nearly flat disc called the ecliptic."
+                android:textColor="@android:color/background_light" />
+
+            <ImageView
+                android:id="@+id/imageView26"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/planetsolar" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nv1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+
+        app:headerLayout="@layout/navigation_header"
+        app:itemBackground="@android:color/background_dark"
+        app:itemIconTint="@android:color/background_light"
+        app:itemTextColor="@android:color/background_light"
+        app:menu="@menu/navigation_menu">
+
+    </android.support.design.widget.NavigationView>
+</android.support.v4.widget.DrawerLayout>

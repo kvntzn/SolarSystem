@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/unnamed"
+    tools:context="com.example.lenovo.solarsystem.Asteroid">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#99000000"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Asteroid Belt"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="The asteroid belt is the circumstellar disc in the Solar System located roughly between the orbits of the planets Mars and Jupiter. It is occupied by numerous irregularly shaped bodies called asteroids or minor planets. The asteroid belt is also termed the main asteroid belt or main belt to distinguish it from other asteroid populations in the Solar System such as near-Earth asteroids and trojan asteroids.[1] About half the mass of the belt is contained in the four largest asteroids: Ceres, Vesta, Pallas, and Hygiea.[1] The total mass of the asteroid belt is approximately 4% that of the Moon, or 22% that of Pluto, and roughly twice that of Pluto's moon Charon (whose diameter is 1200 km).\nCeres, the asteroid belt's only dwarf planet, is about 950 km in diameter, whereas 4 Vesta, 2 Pallas, and 10 Hygiea have mean diameters of less than 600 km.[2][3][4][5] The remaining bodies range down to the size of a dust particle. The asteroid material is so thinly distributed that numerous unmanned spacecraft have traversed it without incident.[6] Nonetheless, collisions between large asteroids do occur, and these can produce an asteroid family whose members have similar orbital characteristics and compositions. Individual asteroids within the asteroid belt are categorized by their spectra, with most falling into three basic groups: carbonaceous (C-type), silicate (S-type), and metal-rich (M-type).\n"
+                android:textColor="@android:color/background_light" />
+
+            <ImageView
+                android:id="@+id/imageView27"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                app:srcCompat="@drawable/asteroid" />
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="The asteroids of the inner Solar System and Jupiter: The donut-shaped asteroid belt is located between the orbits of Jupiter and Mars.\n"
+                android:textColor="@android:color/background_light" />
+
+            <ImageView
+                android:id="@+id/imageView28"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/asteroidbelt" />
+
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="By far the largest object within the belt is Ceres. The total mass of the asteroid belt is significantly less than Pluto's, and approximately twice that of Pluto's moon Charon.\n"
+                android:textColor="@android:color/background_light" />
+
+            <TextView
+                android:id="@+id/textView61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Formation"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="In 1802, shortly after discovering Pallas, Olbers suggested to Herschel that Ceres and Pallas were fragments of a much larger planet that once occupied the Mars–Jupiter region, this planet having suffered an internal explosion or a cometary impact many million years before.[32] Over time, however, this hypothesis has fallen from favor. The large amount of energy required to destroy a planet, combined with the belt's low combined mass, which is only about 4% of the mass of the Moon,[2] do not support the hypothesis. Further, the significant chemical differences between the asteroids become difficult to explain if they come from the same planet.[33] Today, most scientists accept that, rather than fragmenting from a progenitor planet, the asteroids never formed a planet at all.\n"
+                android:textColor="@android:color/background_light" />
+
+            <TextView
+                android:id="@+id/textView63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Evolution"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView62"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="The asteroids are not samples of the primordial Solar System. They have undergone considerable evolution since their formation, including internal heating (in the first few tens of millions of years), surface melting from impacts, space weathering from radiation, and bombardment by micrometeorites.[40] Although some scientists refer to the asteroids as residual planetesimals,[41] other scientists consider them distinct.[42]\n"
+                android:textColor="@android:color/background_light" />
+
+            <TextView
+                android:id="@+id/textView65"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Characteristics"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView67"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Contrary to popular imagery, the asteroid belt is mostly empty. The asteroids are spread over such a large volume that it would be improbable to reach an asteroid without aiming carefully. Nonetheless, hundreds of thousands of asteroids are currently known, and the total number ranges in the millions or more, depending on the lower size cutoff. Over 200 asteroids are known to be larger than 100 km,[50] and a survey in the infrared wavelengths has shown that the asteroid belt has 0.7–1.7 million asteroids with a diameter of 1 km or more.[51] The apparent magnitudes of most of the known asteroids are 11–19, with the median at about 16.[52]\n"
+                android:textColor="@android:color/background_light" />
+
+            <ImageView
+                android:id="@+id/imageView29"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/gaspra" />
+
+            <TextView
+                android:id="@+id/textView66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="951 Gaspra, the first asteroid imaged by a spacecraft, as viewed during Galileo's 1991 flyby; colors are exaggerated\n"
+                android:textColor="@android:color/background_light" />
+
+            <TextView
+                android:id="@+id/textView68"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Collisions"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView69"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="The high population of the asteroid belt makes for a very active environment, where collisions between asteroids occur frequently (on astronomical time scales). Collisions between main-belt bodies with a mean radius of 10 km are expected to occur about once every 10 million years.[69] A collision may fragment an asteroid into numerous smaller pieces (leading to the formation of a new asteroid family).[70] Conversely, collisions that occur at low relative speeds may also join two asteroids. After more than 4 billion years of such processes, the members of the asteroid belt now bear little resemblance to the original population.\n"
+                android:textColor="@android:color/background_light" />
+
+            <ImageView
+                android:id="@+id/imageView30"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/zodiacal" />
+
+            <TextView
+                android:id="@+id/textView72"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="The zodiacal light, a minor part of which is created by dust from collisions in the asteroid belt\n"
+                android:textColor="@android:color/background_light" />
+
+            <TextView
+                android:id="@+id/textView71"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Exploration"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView70"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="The first spacecraft to traverse the asteroid belt was Pioneer 10, which entered the region on 16 July 1972. At the time there was some concern that the debris in the belt would pose a hazard to the spacecraft, but it has since been safely traversed by 12 spacecraft without incident. Pioneer 11, Voyagers 1 and 2 and Ulysses passed through the belt without imaging any asteroids. Galileo imaged 951 Gaspra in 1991 and 243 Ida in 1993, NEAR imaged 253 Mathilde in 1997, Cassini imaged 2685 Masursky in 2000, Stardust imaged 5535 Annefrank in 2002, New Horizons imaged 132524 APL in 2006, Rosetta imaged 2867 Šteins in September 2008 and 21 Lutetia in July 2010, and Dawn orbited Vesta between July 2011 and September 2012 and has orbited Ceres since March 2015.[88] On its way to Jupiter, Juno traversed the asteroid belt without collecting science data.[89] Due to the low density of materials within the belt, the odds of a probe running into an asteroid are now estimated at less than one in a billion.[90]"
+                android:textColor="@android:color/background_light" />
+        </LinearLayout>
+
+    </ScrollView>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nv1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+
+        app:headerLayout="@layout/navigation_header"
+        app:itemBackground="@android:color/background_dark"
+        app:itemIconTint="@android:color/background_light"
+        app:itemTextColor="@android:color/background_light"
+        app:menu="@menu/navigation_menu">
+
+    </android.support.design.widget.NavigationView>
+</android.support.v4.widget.DrawerLayout>

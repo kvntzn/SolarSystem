@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/unnamed"
+    tools:context="com.example.lenovo.solarsystem.MainActivity"
+    android:id="@+id/drawerLayout">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:layout_gravity="top"
+                android:orientation="horizontal"
+                android:weightSum="1"
+                >
+
+                <ImageButton
+                    android:id="@+id/btnSun"
+                    android:layout_width="300dp"
+                    android:layout_height="175dp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginStart="30dp"
+
+                    android:layout_weight="1"
+
+                    android:adjustViewBounds="true"
+                    android:background="#99000000"
+                    android:scaleType="fitCenter"
+                    android:layout_marginRight="30dp"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:layout_marginLeft="30dp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    tools:layout_editor_absoluteY="62dp" />
+
+                <ImageView
+                    android:id="@+id/imgSun"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginStart="15dp"
+                    app:srcCompat="@drawable/sun"
+                    app:layout_constraintTop_toTopOf="@+id/btnSun"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="15dp"
+                    app:layout_constraintLeft_toLeftOf="@+id/btnSun"
+                    app:layout_constraintBottom_toBottomOf="@+id/btnSun"
+                    android:layout_marginBottom="8dp"
+                    app:layout_constraintRight_toLeftOf="@+id/tvSun"
+                    android:layout_marginRight="15dp"
+                    app:layout_constraintVertical_bias="0.508" />
+
+                <TextView
+                    android:id="@+id/tvSun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="31dp"
+                    android:layout_marginRight="31dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="0.04"
+                    android:text="Mercury is the smallest \n and innermost planet in \n  the Solar System.Its \n orbital period around\n the Sun of 88 days is \n the shortest of all\n  the planetsin the\n  Solar System ...\n See more...\n"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="10sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/btnSun"
+                    app:layout_constraintRight_toRightOf="@+id/btnSun"
+                    app:layout_constraintTop_toTopOf="@+id/btnSun" />
+
+                <ImageButton
+                    android:id="@+id/btnMercury"
+                    android:layout_width="145dp"
+                    android:layout_height="290dp"
+                    android:adjustViewBounds="true"
+                    android:background="#99000000"
+                    android:scaleType="fitCenter"
+
+
+                    android:layout_marginTop="15dp"
+                    app:layout_constraintTop_toBottomOf="@+id/btnSun"
+                    android:layout_marginLeft="16dp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginStart="16dp" />
+
+
+                <ImageView
+                    android:id="@+id/imgMerc"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+
+                    app:srcCompat="@drawable/merc"
+                    app:layout_constraintTop_toTopOf="@+id/btnMercury"
+                    android:layout_marginTop="31dp"
+                    android:layout_marginRight="8dp"
+                    app:layout_constraintRight_toRightOf="@+id/btnMercury"
+                    android:layout_marginLeft="8dp"
+                    app:layout_constraintLeft_toLeftOf="@+id/btnMercury"
+                    app:layout_constraintHorizontal_bias="0.896"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp" />
+
+                <TextView
+                    android:id="@+id/tvMercury"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_weight="0.04"
+                    android:text="Mercury is the smallest \n and innermost planet in \n  the Solar System.Its \n orbital period around\n the Sun of 88 days is \n the shortest of all\n  the planetsin the\n  Solar System ...\n\n See more...\n"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="10sp"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintLeft_toLeftOf="@+id/btnMercury"
+                    app:layout_constraintRight_toRightOf="@+id/btnMercury"
+                    app:layout_constraintTop_toBottomOf="@+id/imgMerc" />
+
+                <ImageButton
+                    android:id="@+id/btnVenus"
+                    android:layout_width="145dp"
+                    android:layout_height="290dp"
+                    android:layout_marginEnd="27dp"
+                    android:layout_marginStart="27dp"
+                    android:adjustViewBounds="true"
+
+
+                    android:background="#99000000"
+                    android:scaleType="fitCenter"
+                    android:layout_marginRight="27dp"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintLeft_toRightOf="@+id/btnMercury"
+                    android:layout_marginLeft="27dp"
+                    android:layout_marginTop="15dp"
+                    app:layout_constraintTop_toBottomOf="@+id/btnSun" />
+
+                <ImageView
+                    android:id="@+id/imgVenus"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginEnd="2dp"
+                    android:layout_marginStart="2dp"
+                    app:srcCompat="@drawable/venus"
+                    app:layout_constraintTop_toTopOf="@+id/btnVenus"
+                    android:layout_marginTop="31dp"
+                    android:layout_marginRight="2dp"
+                    app:layout_constraintRight_toRightOf="@+id/btnVenus"
+                    android:layout_marginLeft="2dp"
+                    app:layout_constraintLeft_toLeftOf="@+id/btnVenus"
+                    app:layout_constraintHorizontal_bias="0.724" />
+
+                <TextView
+                    android:id="@+id/tvVenus"
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="21dp"
+                    android:text="Venus is the second \n planet from the Sun,\n  orbiting it every\n  224.7 Earth days. It\n  has the longest \n rotation period \n (243 days) of any\n  planet in the Solar\n  System and ...\n \n See more..."
+                    android:textColor="@android:color/background_light"
+                    android:textSize="10sp"
+                    app:layout_constraintHorizontal_bias="0.555"
+                    app:layout_constraintLeft_toLeftOf="@+id/btnVenus"
+                    app:layout_constraintRight_toRightOf="@+id/btnVenus"
+                    app:layout_constraintTop_toBottomOf="@+id/imgVenus"
+                    android:layout_marginEnd="8dp" />
+
+                <ImageButton
+                    android:id="@+id/btnEarth"
+                    android:layout_width="145dp"
+                    android:layout_height="290dp"
+
+
+
+
+                    android:adjustViewBounds="true"
+                    android:background="#99000000"
+                    android:scaleType="fitCenter"
+                    app:layout_constraintLeft_toLeftOf="@+id/btnMercury"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintTop_toBottomOf="@+id/btnMercury" />
+
+                <ImageView
+                    android:id="@+id/imgEarth"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="16dp"
+                    app:srcCompat="@drawable/earth"
+                    app:layout_constraintTop_toTopOf="@+id/btnEarth"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginLeft="16dp"
+                    app:layout_constraintLeft_toLeftOf="@+id/btnEarth"
+                    android:layout_marginRight="16dp"
+                    app:layout_constraintRight_toRightOf="@+id/btnEarth"
+                    app:layout_constraintHorizontal_bias="0.724" />
+
+                <TextView
+                    android:id="@+id/tvEarth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="17dp"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="17dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Earth is the third planet\n  from the Sun and the \n only object in the\n  Universe known to \n harbor life. According\n  to radiometric dating\n  and other sources of \n evidence, ...\n\nSee more..."
+                    android:textColor="@android:color/background_light"
+                    android:textSize="10sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/btnEarth"
+                    app:layout_constraintHorizontal_bias="0.24"
+                    app:layout_constraintLeft_toLeftOf="@+id/btnEarth"
+                    app:layout_constraintRight_toRightOf="@+id/btnEarth"
+                    app:layout_constraintTop_toBottomOf="@+id/imgEarth"
+                    app:layout_constraintVertical_bias="0.0"
+                    android:layout_marginEnd="8dp" />
+
+                <ImageButton
+                    android:id="@+id/btnMars"
+                    android:layout_width="145dp"
+                    android:layout_height="290dp"
+                    android:layout_marginEnd="31dp"
+
+                    android:layout_marginStart="30dp"
+                    android:adjustViewBounds="true"
+                    android:background="#99000000"
+                    android:scaleType="fitCenter"
+                    app:layout_constraintLeft_toRightOf="@+id/btnEarth"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="31dp"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintHorizontal_bias="0.611"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintTop_toBottomOf="@+id/btnVenus" />
+
+                <ImageView
+                    android:id="@+id/imgMars"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginEnd="11dp"
+                    android:layout_marginStart="11dp"
+                    app:srcCompat="@drawable/mars"
+                    app:layout_constraintTop_toTopOf="@+id/btnMars"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginLeft="11dp"
+                    app:layout_constraintLeft_toLeftOf="@+id/btnMars"
+                    android:layout_marginRight="11dp"
+                    app:layout_constraintRight_toRightOf="@+id/btnMars" />
+
+                <TextView
+                    android:id="@+id/tvMars"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="14dp"
+                    android:layout_marginLeft="8dp"
+
+                    android:layout_marginRight="14dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Mars is the fourth \n  planet from the Sun\n  and the second-smallest\n  planet in the Solar \n System after Mercury.\n  In English, Mars\n  carries a name of \n the Roman god of ...\n\nSee more..."
+                    android:textColor="@android:color/background_light"
+                    android:textSize="10sp"
+                    app:layout_constraintLeft_toLeftOf="@+id/btnMars"
+                    app:layout_constraintRight_toRightOf="@+id/btnMars"
+                    app:layout_constraintTop_toBottomOf="@+id/imgMars"
+                    android:layout_marginStart="8dp" />
+
+                <ImageButton
+                    android:id="@+id/btnJupiter"
+                    android:layout_width="300dp"
+                    android:layout_height="156dp"
+                    android:layout_marginStart="30dp"
+                    android:adjustViewBounds="true"
+
+
+                    android:background="#99000000"
+                    android:scaleType="fitCenter"
+                    android:layout_marginLeft="30dp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintTop_toBottomOf="@+id/btnMars"
+                    android:layout_marginRight="8dp"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:layout_marginEnd="8dp" />
+
+                <ImageView
+                    android:id="@+id/imgJupiter"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="9dp"
+                    app:srcCompat="@drawable/jupiter"
+                    android:layout_marginLeft="9dp"
+                    app:layout_constraintLeft_toLeftOf="@+id/btnJupiter"
+                    app:layout_constraintTop_toTopOf="@+id/btnJupiter"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintRight_toLeftOf="@+id/tvJupiter"
+                    app:layout_constraintBottom_toBottomOf="@+id/btnJupiter"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:id="@+id/tvJupiter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Jupiter is the fifth planet from the\n  Sun and the largest in the Solar System.\n  It is a giant planet with a mass\n  one-thousandth that of the Sun, \n but two and a half times ...\n\nSee more ..."
+                    android:textColor="@android:color/background_light"
+                    android:textSize="10sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/btnJupiter"
+                    app:layout_constraintRight_toRightOf="@+id/btnJupiter"
+                    app:layout_constraintTop_toTopOf="@+id/btnJupiter" />
+
+                <ImageButton
+                    android:id="@+id/btnSaturn"
+                    android:layout_width="145dp"
+                    android:layout_height="290dp"
+
+
+                    android:layout_marginStart="32dp"
+                    android:adjustViewBounds="true"
+                    android:background="#99000000"
+                    android:scaleType="fitCenter"
+                    android:layout_marginTop="7dp"
+                    app:layout_constraintTop_toBottomOf="@+id/btnJupiter"
+                    android:layout_marginLeft="32dp"
+                    app:layout_constraintLeft_toLeftOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imgSaturn"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginEnd="11dp"
+                    android:layout_marginStart="11dp"
+                    app:srcCompat="@drawable/planetsaturn"
+                    app:layout_constraintTop_toTopOf="@+id/btnSaturn"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginRight="11dp"
+                    app:layout_constraintLeft_toLeftOf="@+id/btnSaturn"
+                    app:layout_constraintRight_toRightOf="@+id/btnSaturn" />
+
+                <TextView
+                    android:id="@+id/tvSaturn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="8dp"
+
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Saturn is the sixth \n planet from the Sun\n  and the second-largest\n  in the Solar System,\n  after Jupiter. It\n  is a gas giant with\n  an average radius \n about nine times \n that of ...\n\nSee more.."
+                    android:textColor="@android:color/background_light"
+                    android:textSize="10sp"
+                    app:layout_constraintLeft_toLeftOf="@+id/btnSaturn"
+                    app:layout_constraintRight_toRightOf="@+id/btnSaturn"
+                    app:layout_constraintTop_toBottomOf="@+id/imgSaturn"
+                    android:layout_marginEnd="8dp" />
+
+                <ImageButton
+                    android:id="@+id/btnUranus"
+                    android:layout_width="145dp"
+                    android:layout_height="290dp"
+
+                    android:adjustViewBounds="true"
+                    android:background="#99000000"
+                    android:scaleType="fitCenter"
+                    android:layout_marginTop="7dp"
+                    app:layout_constraintTop_toBottomOf="@+id/btnJupiter"
+                    android:layout_marginRight="8dp"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintLeft_toRightOf="@+id/btnSaturn"
+                    android:layout_marginLeft="8dp"
+                    app:layout_constraintHorizontal_bias="0.555"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp" />
+
+                <ImageView
+                    android:id="@+id/imgUranus"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginEnd="29dp"
+                    android:layout_marginStart="29dp"
+                    app:srcCompat="@drawable/uranus"
+                    app:layout_constraintTop_toTopOf="@+id/btnUranus"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginLeft="29dp"
+                    app:layout_constraintLeft_toLeftOf="@+id/btnUranus"
+                    android:layout_marginRight="29dp"
+                    app:layout_constraintRight_toRightOf="@+id/btnUranus" />
+
+                <TextView
+                    android:id="@+id/tvUranus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+
+                    android:layout_marginTop="8dp"
+                    android:text="Uranus is the seventh\n  planet from the Sun.\n  It has the third-largest\n  planetary radius and\n  fourth-largest planetary\n  mass in the Solar \n System. Uranus is \n similar in ...\n\nSee more..."
+                    android:textColor="@android:color/background_light"
+                    android:textSize="10sp"
+                    app:layout_constraintLeft_toLeftOf="@+id/btnUranus"
+                    app:layout_constraintRight_toRightOf="@+id/btnUranus"
+                    app:layout_constraintTop_toBottomOf="@+id/imgUranus"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp" />
+
+                <ImageButton
+                    android:id="@+id/btnNeptune"
+                    android:layout_width="145dp"
+                    android:layout_height="290dp"
+
+
+
+                    android:adjustViewBounds="true"
+                    android:background="#99000000"
+                    android:scaleType="fitCenter"
+
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="29dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintTop_toBottomOf="@+id/btnSaturn"
+                    android:layout_marginStart="29dp" />
+
+                <ImageView
+                    android:id="@+id/imgNeptune"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginStart="51dp"
+                    app:srcCompat="@drawable/neptune"
+                    app:layout_constraintTop_toTopOf="@+id/btnNeptune"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginLeft="51dp"
+                    app:layout_constraintLeft_toLeftOf="@+id/btnNeptune"
+                    android:layout_marginRight="50dp"
+                    app:layout_constraintRight_toRightOf="@+id/btnNeptune" />
+
+                <TextView
+                    android:id="@+id/tvNeptune"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="9dp"
+                    android:layout_marginLeft="8dp"
+
+                    android:layout_marginRight="9dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Neptune is the eighth\n  and farthest known \n planet from the Sun \n in the Solar System.\n  In the Solar System,\n  it is the fourth-largest\n  planet by diameter, the ...\n\nSee more..."
+                    android:textColor="@android:color/background_light"
+                    android:textSize="10sp"
+                    app:layout_constraintLeft_toLeftOf="@+id/btnNeptune"
+                    app:layout_constraintRight_toRightOf="@+id/btnNeptune"
+                    app:layout_constraintTop_toBottomOf="@+id/imgNeptune"
+                    android:layout_marginStart="8dp" />
+
+                <ImageButton
+                    android:id="@+id/btnPluto"
+                    android:layout_width="138dp"
+                    android:layout_height="261dp"
+                    android:layout_marginEnd="25dp"
+                    android:layout_marginStart="23dp"
+
+                    android:adjustViewBounds="true"
+                    android:background="#99000000"
+                    android:scaleType="fitCenter"
+                    android:layout_marginRight="25dp"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintLeft_toRightOf="@+id/btnNeptune"
+                    android:layout_marginLeft="23dp"
+                    app:layout_constraintHorizontal_bias="0.545"
+                    android:layout_marginTop="7dp"
+                    app:layout_constraintTop_toBottomOf="@+id/btnUranus" />
+
+                <ImageView
+                    android:id="@+id/imgPluto"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/pluto"
+                    android:layout_marginStart="34dp"
+                    android:layout_marginEnd="34dp"
+                    app:layout_constraintTop_toTopOf="@+id/btnPluto"
+                    android:layout_marginTop="31dp"
+                    android:layout_marginLeft="34dp"
+                    app:layout_constraintLeft_toLeftOf="@+id/btnPluto"
+                    android:layout_marginRight="34dp"
+                    app:layout_constraintRight_toRightOf="@+id/btnPluto"
+                    app:layout_constraintHorizontal_bias="0.689" />
+
+                <TextView
+                    android:id="@+id/tvPluto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="9dp"
+                    android:text="Pluto (minor-planet \n designation: 134340 Pluto)\n  is a dwarf planet in the\n  Kuiper belt, a ring \n of bodies beyond Neptune.\n  It was the first Kuiper\n  belt object to be ...\n\n See more..."
+                    android:textColor="@android:color/background_light"
+                    android:textSize="10sp"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintLeft_toLeftOf="@+id/btnPluto"
+                    app:layout_constraintRight_toRightOf="@+id/btnPluto"
+                    app:layout_constraintTop_toBottomOf="@+id/imgPluto"
+                    android:layout_marginStart="8dp" />
+
+            </android.support.constraint.ConstraintLayout>
+</ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/btnEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="13dp"
+            android:layout_marginRight="13dp"
+            android:clickable="true"
+            app:backgroundTint="@android:color/background_light"
+            app:fabSize="mini"
+            app:srcCompat="@drawable/ic_add_circle_black_48dp" />
+    </RelativeLayout>
+
+    <android.support.design.widget.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/navigation_header"
+        android:id="@+id/nv1"
+        app:itemBackground="@android:color/background_dark"
+        app:itemIconTint="@android:color/background_light"
+        app:itemTextColor="@android:color/background_light"
+        app:menu="@menu/navigation_menu" />
+
+</android.support.v4.widget.DrawerLayout>
